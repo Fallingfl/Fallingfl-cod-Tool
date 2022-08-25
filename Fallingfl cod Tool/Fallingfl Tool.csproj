@@ -1,0 +1,130 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Fallingfl Tool</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net48</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+    <SignAssembly>False</SignAssembly>
+    <Authors>Fallingfl</Authors>
+    <Product>Tool</Product>
+    <PackageIcon>app.ico</PackageIcon>
+    <FileVersion>1.0</FileVersion>
+    <AssemblyVersion>1.0</AssemblyVersion>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <PackageId />
+    <Copyright>Fallingfl</Copyright>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Obsidian-ToolBox-Update.exe.licenses" />
+    <Content Include="app.ico" />
+    <EmbeddedResource Include="Obsidian-ToolBox-Update.exe.licenses" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Utils.v19.2">
+      <HintPath>E:\bo1\Obsidian ToolBox V2\DevExpress.Utils.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v19.2">
+      <HintPath>E:\bo1\Obsidian ToolBox V2\DevExpress.XtraEditors.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Memory">
+      <HintPath>E:\bo1\Obsidian ToolBox V2\Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v19.2">
+      <HintPath>E:\bo1\Obsidian ToolBox V2\DevExpress.Data.v19.2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\BattleField\bf3 tool\v9\app.ico">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Obsidian_ToolBox_Update.Advanced_Warfare_S1X.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Obsidian_ToolBox_Update.Advanced_Warfare_S1X.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Obsidian_ToolBox_Update.BlackOps.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Obsidian_ToolBox_Update.BlackOps.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Obsidian_ToolBox_Update.BlackOps_2.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Obsidian_ToolBox_Update.BlackOps_2.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Obsidian_ToolBox_Update.Form1.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Obsidian_ToolBox_Update.Form1.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Obsidian_ToolBox_Update.Ghosts.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Obsidian_ToolBox_Update.Ghosts.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Obsidian_ToolBox_Update.Infinite_Warfare.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Obsidian_ToolBox_Update.Infinite_Warfare.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Obsidian_ToolBox_Update.MW2.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Obsidian_ToolBox_Update.MW2.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Obsidian_ToolBox_Update.Properties.Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Obsidian_ToolBox_Update.Properties.Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Obsidian_ToolBox_Update.Advanced_Warfare_S1X.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obsidian_ToolBox_Update.Advanced_Warfare_S1X.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Obsidian_ToolBox_Update.BlackOps.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obsidian_ToolBox_Update.BlackOps.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Obsidian_ToolBox_Update.BlackOps_2.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obsidian_ToolBox_Update.BlackOps_2.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Obsidian_ToolBox_Update.Form1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obsidian_ToolBox_Update.Form1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Obsidian_ToolBox_Update.Ghosts.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obsidian_ToolBox_Update.Ghosts.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Obsidian_ToolBox_Update.Infinite_Warfare.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obsidian_ToolBox_Update.Infinite_Warfare.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Obsidian_ToolBox_Update.MW2.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obsidian_ToolBox_Update.MW2.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Obsidian_ToolBox_Update.Properties.Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Obsidian_ToolBox_Update.Properties.Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
